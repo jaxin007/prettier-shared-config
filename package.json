@@ -1,0 +1,22 @@
+{
+  "name": "@jaxin007/prettier-config-backend",
+  "version": "1.0.0",
+  "description": "jaxin007 shared Back-end Prettier config",
+  "author": "jaxin007",
+  "license": "ISC",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaxin007/prettier-shared-config.git"
+  },
+  "scripts": {
+    "postinstall": "echo \"Prettier shared config is sucessfully installed !\""
+  }
+}
